@@ -1,6 +1,6 @@
 # lib-types
 
-FFI type-alias declarations shared by sdkgen-generated bindings (`types/c/*`).
+FFI type-alias declarations shared by codegen-generated bindings (`types/c/*`).
 
 ## Layout
 
