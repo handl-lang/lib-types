@@ -1,3 +1,4 @@
 -- lib-types: modules this package provides (entry defaults to
 -- src/index.hnl; N modules resolve to src/<name>/index.hnl).
-{ modules: ["c"], name: "types", description: "FFI type-alias declarations shared by codegen bindings.", license: "MIT" }
+-- test_coverage "none": type-alias declarations only (export X := Int/Nat) — no .hnl behavior to test.
+{ modules: ["c"], name: "types", description: "FFI type-alias declarations shared by codegen bindings.", license: "MIT", test_coverage: "none" }
