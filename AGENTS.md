@@ -10,7 +10,7 @@ FFI type-alias declarations shared by codegen-generated bindings
 | `src/c/` | the `c` module — per-header type-alias files |
 | `src/c/{index,netinet,socket,stddef,stdint,sys,time}.hnl` | POSIX header type aliases |
 | `pkg.hnl` | manifest — `modules: ["c"]` |
-| `scripts/hnl-gate.sh`, `ci.sh` | the gate / bupha entry |
+| `scripts/hnl-gate.sh`, `workflows/gate.yaml` | the gate / bupha entry |
 
 ## Contract
 
